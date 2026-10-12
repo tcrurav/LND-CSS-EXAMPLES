@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Ej.6</title>
+
+    <!-- Estilos internos -->
+    <style>
+        tr:nth-child(even) {
+            background-color: lightblue;
+        }
+    </style>
+
+    <!-- Estilos externos -->
+    <link rel="stylesheet" href="css/exercise-06-style.css">
+</head>
+
+<body>
+    <h1>Ejercicio 6</h1>
+
+    <table>
+        <!-- Estilos en línea -->
+        <caption style="color: green; font-style: italic">
+            <strong>Marcas de Coches</strong>
+        </caption>
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Seat</td>
+                <td>600</td>
+            </tr>
+            <tr>
+                <td>Fiat</td>
+                <td>Panda</td>
+            </tr>
+            <tr>
+                <td>Ford</td>
+                <td>Mustang</td>
+            </tr>
+            <tr>
+                <td>Peugeot</td>
+                <td>205</td>
+            </tr>
+            <tr>
+                <td>Mercedes</td>
+                <td>Classic</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr style="border-bottom-width: 0">
+                <td colspan="2" style="text-align: center; padding-top: 1em;">
+                    <strong>Nota:</strong>Muy Vintage
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

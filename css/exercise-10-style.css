@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightyellow;
+}
+
+h1 {
+  text-align: center;
+  margin: 16px auto;
+}
+
+.with-display-none {
+  display: none;
+}
+
+.with-display-block {
+  display: block;
+}
+
+.with-visibility-hidden {
+  visibility: hidden;
+}
+
+.with-visibility-visible {
+  visibility: visible;
+}

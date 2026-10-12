@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    outline-style: dashed;
+    outline-color: brown;
+    outline-width: 4px;
+    outline-offset: 20px;
+
+    border: 4px dotted black;
+
+    padding: 10px;
+
+    font-size: 16px;
+    line-height: 1;
+
+    margin: 10px 50px;
+
+    text-align: center;
+
+    height: calc(4px * 2 + 10px * 2 + 16px);
+}

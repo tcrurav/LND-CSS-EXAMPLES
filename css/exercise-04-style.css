@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    /* Esto hace que el ancho y alto de los elementos incluya el padding y el borde */
+    box-sizing: border-box;
+
+    /* el comportamiento por defecto es content-box 
+    * content-box: el ancho y alto de los elementos sólo incluye el contenido, no el padding ni el borde
+    * border-box: el ancho y alto de los elementos incluye el contenido, el padding y el borde
+    */
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    /* Contenido */
+    text-align: center;
+    background-color: skyblue;
+    background-clip: content-box; /* El fondo solo se aplica al contenido */
+    color: red;
+    width: 800px;
+    height: calc(16px + 32px + 48px + 32px + 16px);
+
+    font-size: 48px;
+    line-height: 1; /* La línea del texto ocupa exactamente el tamaño de la fuente 
+    /* Hay que observar que las letras como g, j, etc con un rabito por debajo se salen */
+    /* Por ello, dependiendo del navegador, por defecto es line-height: 1.2 para evitar ese problema */
+
+    /* Borde */
+    border-width: 16px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+
+    /* shorthand o atajo
+    * border: 32px solid rgb(0, 0, 0); 
+    */
+
+    /* Padding */
+    padding: 32px;
+
+    /* Margen */
+    margin-top: 33px;
+    margin-right: 34px;
+    margin-bottom: 35px;
+    margin-left: 36px;
+
+    /* shorthand o atajo
+    *
+    * En el sentido de las agujas del reloj, empezando por arriba
+    * margin: 33px 34px 35px 36px;  
+    *
+    * Si los valores fueran iguales, se podría simplificar
+    * margin: 32px;
+    *
+    * Si los valores fueran iguales de dos en dos, se podría simplificar
+    * primero los valores de arriba y abajo, y luego los de izquierda y derecha
+    * margin: 32px 33px;   
+    * 
+    * Si los valores fueran iguales de tres en tres, se puede simplificar
+    * primero el valor de arriba, luego los de izquierda y derecha, y por último el valor de abajo
+    * margin: 32px 33px 34px; 
+    */
+}

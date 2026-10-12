@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue;
+}
+
+li {
+    color: red;
+}
+
+#audi {
+    color: green;
+    font-weight: bold;
+}

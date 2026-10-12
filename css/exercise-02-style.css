@@ -1,0 +1,19 @@
+/* Este es el selector universal, que selecciona todos los elementos de la página */
+* {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.first-group {
+    color: red;
+    font-weight: bold;
+}
+
+.second-group {
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+}

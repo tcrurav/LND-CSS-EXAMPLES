@@ -1,0 +1,22 @@
+/* Este es el selector universal, que selecciona todos los elementos de la página */
+* {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+/* Este es el selector de agrupación, que selecciona todos los elementos <h1> y <p> de la página */
+h1, p {
+    color: darkblue;
+}
+
+/* Este es el selector de tipo, que selecciona todos los elementos <p> de la página */
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+}

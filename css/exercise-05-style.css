@@ -1,0 +1,26 @@
+ol {
+    /* Uso de colores con su nombre de color */
+    background-color: skyblue;
+
+    /* Uso de colores RGB 
+        R - Red             - 0 a 255
+        G - Green           - 0 a 255
+        B - Blue            - 0 a 255
+    */
+    border: 5px solid rgb(0, 0, 0);
+
+    /* Uso de colores HSL 
+        H - Hue             - 0 a 360 grados
+        S - Saturation      - 0% a 100%
+        L - Lightness       - 0% a 100%
+    */
+    color: hsl(200, 62%, 29%)
+}
+
+li#most-forgotten-one {
+    /* Uso de colores Hexadecimales 
+        #RRGGBB - 00 a FF
+    */
+    color: #ff0000;
+    font-weight: bold;
+}

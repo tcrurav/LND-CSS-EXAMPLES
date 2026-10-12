@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightyellow;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 16px auto;
+}
+
+p{
+  margin-bottom: 2em;
+}
+
+p.tale::first-letter {
+  color: red;
+  font-size: xx-large;
+}
+
+.like::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/thumb-up.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
