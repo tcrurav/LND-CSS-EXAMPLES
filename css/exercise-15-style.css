@@ -1,0 +1,67 @@
+/* Móvil */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: olive;
+  color: white;
+}
+
+header,
+main,
+footer {
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 2px solid currentColor;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+/* Tablet en adelante: desde 768px */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    display: inline-block;
+  }
+}
+
+/* Pantalla de PC de Escritorio: desde 992px */
+@media screen and (min-width: 992px) {
+  body {
+    background-color: tan;
+    color: black;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  main {
+    width: 80%;
+    margin: 0 auto 15px;
+  }
+}
