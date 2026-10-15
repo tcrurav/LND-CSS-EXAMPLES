@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  background-color: #eeeeee;
+  margin-bottom: 20px;
+  gap: 1em;
+}
+
+.box {
+  background-color: royalblue;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  min-width: 0;
+}
+
+/* Repartir el espacio sobrante */
+.grow .box {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.grow .box:nth-child(2) {
+  flex-grow: 2;
+}
+
+/* Reducir tamaño cuando falta espacio */
+.shrink {
+  width: 300px;
+}
+
+.shrink .box {
+  flex-basis: 150px;
+  flex-shrink: 1;
+}
+
+.shrink .box:nth-child(2) {
+  flex-shrink: 0;
+}
+
+/* Establecer tamaño inicial */
+.basis .box {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 100px;
+}
+
+.basis .box:nth-child(2) {
+  flex-basis: 200px;
+}

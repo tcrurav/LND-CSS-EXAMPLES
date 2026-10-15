@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.container {
+  display: flex;
+  background-color: #eeeeee;
+  padding: 10px;
+  margin-bottom: 15px;
+  gap: 1rem;
+}
+
+.box {
+  background-color: teal;
+  color: white;
+  padding: 15px;
+  margin: 0;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.center {
+  justify-content: center;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}

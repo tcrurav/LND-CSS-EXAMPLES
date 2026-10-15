@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Galería para pantallas grandes */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: green;
+  justify-content: space-evenly;
+}
+
+.gallery img {
+  width: calc((100% - 20px) / 3);
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Tablet: 2 columnas */
+@media screen and (max-width: 992px) {
+  .gallery img {
+    width: calc((100% - 10px) / 2);
+  }
+}
+
+/* Móvil: 1 columna */
+@media screen and (max-width: 768px) {
+  .gallery img {
+    width: 100%;
+  }
+}
